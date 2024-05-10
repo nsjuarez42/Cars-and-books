@@ -1,6 +1,8 @@
 import Motor
+import sqlite3
 
-
+#builder pattern here
+#factory for engine
 class Car:
 
     def __init__(self,brand,model,price,cilinders =0,cv=0,hp=0):
